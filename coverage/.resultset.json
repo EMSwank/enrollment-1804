@@ -192,6 +192,32 @@
         1,
         null
       ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/features/students/user_can_see_a_list_of_students_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/features/students/users_see_an_individual_student_spec.rb": [
         1,
         null,
@@ -239,6 +265,6 @@
         null
       ]
     },
-    "timestamp": 1531252349
+    "timestamp": 1531252706
   }
 }
