@@ -1,3 +1,3 @@
 class Address < ApplicationRecord
-  belongs_to :student_id
+  belongs_to :student
 end
