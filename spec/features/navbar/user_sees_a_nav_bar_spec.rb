@@ -47,9 +47,7 @@ end
 
 
 =begin
-As a user
-When I visit any page
-I see links to see a list of all students, or create a new student
+
 As a user
 When I visit `/students`
 And I click on a student's name

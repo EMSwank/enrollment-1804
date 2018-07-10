@@ -9,6 +9,10 @@
   </head>
 
   <body>
+    <header>
+      <div><%= link_to  "List All Students", students_path %></div>
+      <div><%= link_to  "Add New Student", new_student_path %></div>
+    </header>
     <%= yield %>
   </body>
 </html>
