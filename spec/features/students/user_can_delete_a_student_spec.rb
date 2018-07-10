@@ -3,19 +3,13 @@ require 'rails_helper'
 describe "user visits /students" do
   context "clicks on delete next to student's name" do
     it "redirects to student index where the name no longer appears" do
-      student1 = Student.create(name: "Larry")
-      student2 = Student.create(name: "Moe")
-      student3 = Student.create(name: "Curly")
+      student = Student.create(name: "Larry")
 
       visit students_path
-      
-      within('div#student1') do
-        click_on "Delete"
-      end
 
-      expect(page).to have_content(student1)
-      expect(page).to have_content(student2)
-      expect(page).to_not have_content(student3)
+      click_on "Delete"
+
+      expect(page).to_not have_content(student)
     end
   end
 end
