@@ -8,8 +8,8 @@ describe "user visits /students/new" do
       save_and_open_page
       fill_in "Name", with:  "Axl Rose"
       click_on "Create Student"
-      expect(current_path).to eq(new_student_path)
-      expect(page).to have_content(name)
+      expect(current_path).to eq("/students/#{Student.last.id}")
+      expect(page).to have_content(Student.last.name)
     end
   end
 end
