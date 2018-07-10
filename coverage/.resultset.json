@@ -257,6 +257,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/controllers/application_controller.rb": [
@@ -265,6 +269,6 @@
         null
       ]
     },
-    "timestamp": 1531252706
+    "timestamp": 1531252997
   }
 }
