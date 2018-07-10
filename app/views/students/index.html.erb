@@ -1,5 +1,8 @@
 <h1>All Students</h1>
 
 <% @students.each do |student| %>
-  <div id="student<%=student.id%>"><h2><%= student.name %></h2></div>
+  <div id="student<%=student.id%>">
+    <h2><%= student.name %></h2>
+    <%= link_to "Delete", student_path(student), method: "delete" %>
+  </div>
 <% end %>

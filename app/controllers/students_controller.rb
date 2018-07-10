@@ -30,8 +30,16 @@ class StudentsController < ApplicationController
     else
       render :edit
     end
-
   end
+
+  def destroy
+    student = Student.find(params[:id])
+    student.destroy
+    flash[:success] = "#{student.name} was successfully deleted!"
+    redirect_to students_path
+  end
+
+
 
   private
 
