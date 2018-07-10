@@ -5,6 +5,7 @@ class CreateAddresses < ActiveRecord::Migration[5.1]
       t.string :street
       t.string :city
       t.integer :zip_code
+      t.references :student_id, foreign_key: true
 
       t.timestamps
     end

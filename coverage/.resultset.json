@@ -402,19 +402,19 @@
         null,
         null
       ],
-      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/helpers/addresses_helper_spec.rb": [
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/models/address_spec.rb": [
         1,
         null,
+        1,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/models/address.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/models/application_record.rb": [
         1,
         1,
         null
@@ -427,24 +427,6 @@
         null
       ],
       "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/models/student.rb": [
-        1,
-        null
-      ],
-      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/views/addresses/create.html.erb_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/views/addresses/new.html.erb_spec.rb": [
-        1,
-        null,
         1,
         1,
         null
@@ -504,6 +486,6 @@
         null
       ]
     },
-    "timestamp": 1531257763
+    "timestamp": 1531258633
   }
 }

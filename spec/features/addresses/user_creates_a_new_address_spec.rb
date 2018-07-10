@@ -4,6 +4,7 @@ describe "a user" do
   context "visit /students/:id/addresses/new" do
     it "fills out a form to create a new address" do
       student= Student.create(name: "Plain Jane")
+      
       visit new_student_address_path
 
       fill_in "Description",	with: "Summer Address"
