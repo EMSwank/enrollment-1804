@@ -5,9 +5,9 @@ describe "user visits /students/new" do
     it "creates a student and goes to the student show page" do
       visit new_student_path
 
-      save_and_open_page
       fill_in "Name", with:  "Axl Rose"
       click_on "Create Student"
+      
       expect(current_path).to eq("/students/#{Student.last.id}")
       expect(page).to have_content(Student.last.name)
     end
