@@ -192,33 +192,11 @@
         1,
         null
       ],
-      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/controllers/students_controller.rb": [
-        1,
-        null
-      ],
-      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/controllers/application_controller.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/features/students/users_see_an_individual_student_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        0,
-        null,
-        null
-      ],
       "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/models/student_spec.rb": [
         1,
         null,
         1,
-        1,
+        null,
         null
       ],
       "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/models/student.rb": [
@@ -229,8 +207,21 @@
         1,
         1,
         null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/controllers/students_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1531251750
+    "timestamp": 1531251981
   }
 }
