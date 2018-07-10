@@ -406,7 +406,7 @@
         1,
         null,
         1,
-        null,
+        1,
         null
       ],
       "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/models/address.rb": [
@@ -486,6 +486,6 @@
         null
       ]
     },
-    "timestamp": 1531258633
+    "timestamp": 1531259758
   }
 }
