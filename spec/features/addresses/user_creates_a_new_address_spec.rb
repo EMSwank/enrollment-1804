@@ -3,6 +3,7 @@ require 'rails_helper'
 describe "a user" do
   context "visit /students/:id/addresses/new" do
     it "fills out a form to create a new address" do
+      student= Student.create(name: "Plain Jane")
       visit new_student_address_path
 
       fill_in "Description",	with: "Summer Address"
@@ -11,7 +12,7 @@ describe "a user" do
       fill_in "Zip Code",	with: 78902
       click_on "Submit"
 
-      expect(current_path).to eq(student_path("/students/#{Student.last.id}"))
+      expect(current_path).to eq(student_path(student))
       expect(page).to have_content("Summer Address")
       expect(page).to have_content("12345 hjksdalf")
       expect(page).to have_content("hjkl")

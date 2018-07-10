@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'addresses/new'
+
+  get 'addresses/create'
+
   resources :students do
     resources :addresses
   end
