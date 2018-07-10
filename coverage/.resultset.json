@@ -1,0 +1,236 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/environment.rb": [
+        null,
+        1,
+        null,
+        null,
+        1
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/application.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/boot.rb": [
+        1,
+        null,
+        1
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/environments/test.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/initializers/application_controller_renderer.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/initializers/assets.rb": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/initializers/backtrace_silencers.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/initializers/cookies_serializer.rb": [
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/initializers/inflections.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/initializers/mime_types.rb": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/initializers/wrap_parameters.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/config/routes.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/helpers/students_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/controllers/students_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/features/students/users_see_an_individual_student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/models/student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/models/student.rb": [
+        1,
+        null
+      ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1531251750
+  }
+}
