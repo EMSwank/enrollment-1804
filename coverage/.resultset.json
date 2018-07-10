@@ -192,6 +192,39 @@
         1,
         null
       ],
+      "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/features/students/user_can_delete_a_student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/eliotswank/turing/mod2-redux/mid_mod/enrollment-1804/spec/features/students/user_can_edit_a_student_spec.rb": [
         1,
         null,
@@ -280,7 +313,7 @@
         1,
         null,
         1,
-        1,
+        2,
         null,
         null,
         1,
@@ -325,6 +358,6 @@
         null
       ]
     },
-    "timestamp": 1531253972
+    "timestamp": 1531254585
   }
 }
