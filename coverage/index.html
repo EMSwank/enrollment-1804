@@ -14,26 +14,26 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-07-10T14:46:31-06:00">2018-07-10T14:46:31-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-07-10T15:01:34-06:00">2018-07-10T15:01:34-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">99.1%</span></span>
+    (<span class="covered_percent"><span class="green">99.17%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.03
+         1.08
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>24</b> files in total.
-    <b>111</b> relevant lines. 
-    <span class="green"><b>110</b> lines covered</span> and
+    <b>25</b> files in total.
+    <b>120</b> relevant lines. 
+    <span class="green"><b>119</b> lines covered</span> and
     <span class="red"><b>1</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -63,11 +63,11 @@
       <tr>
         <td class="strong"><a href="#e64e987c21e632c3ba7ac8d62e100abe32244b51" class="src_link" title="app/controllers/students_controller.rb">app/controllers/students_controller.rb</a></td>
         <td class="green strong">96.3 %</td>
-        <td>49</td>
+        <td>47</td>
         <td>27</td>
         <td>26</td>
         <td>1</td>
-        <td>1.1</td>
+        <td>1.3</td>
       </tr>
       
       <tr>
@@ -241,6 +241,16 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#ab143185ac74d148c7ff272fa49b7d4bb6a15fe4" class="src_link" title="spec/features/students/user_can_create_a_student_spec.rb">spec/features/students/user_can_create_a_student_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>24</td>
+        <td>9</td>
+        <td>9</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#423fc7d41fc18065eea7c7beea6126ec440c9d57" class="src_link" title="spec/features/students/user_can_delete_a_student_spec.rb">spec/features/students/user_can_delete_a_student_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>25</td>
@@ -375,8 +385,8 @@
           <code class="ruby">  def index</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="4">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="4" data-linenumber="4">
+          <span class="hits">4</span>
           
           <code class="ruby">    @students = Student.all</code>
         </li>
@@ -399,8 +409,8 @@
           <code class="ruby">  def new</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="8">
+          <span class="hits">2</span>
           
           <code class="ruby">    @student = Student.new</code>
         </li>
@@ -423,8 +433,8 @@
           <code class="ruby">  def show</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="12">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="5" data-linenumber="12">
+          <span class="hits">5</span>
           
           <code class="ruby">    @student = Student.find(params[:id])</code>
         </li>
@@ -603,10 +613,10 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="42">
+        <li class="covered" data-hits="1" data-linenumber="42">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">  private</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="43">
@@ -618,34 +628,22 @@
         <li class="covered" data-hits="1" data-linenumber="44">
           <span class="hits">1</span>
           
-          <code class="ruby">  private</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="45">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="46">
-          <span class="hits">1</span>
-          
           <code class="ruby">  def student_params</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="47">
+        <li class="covered" data-hits="2" data-linenumber="45">
           <span class="hits">2</span>
           
           <code class="ruby">    params.require(:student).permit(:name)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="48">
+        <li class="never" data-hits="" data-linenumber="46">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="49">
+        <li class="never" data-hits="" data-linenumber="47">
           
           
           <code class="ruby">end</code>
@@ -1968,6 +1966,169 @@
           
           
           <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="ab143185ac74d148c7ff272fa49b7d4bb6a15fe4">
+  <div class="header">
+    <h3>spec/features/students/user_can_create_a_student_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>9</b> relevant lines. 
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &quot;user visits /students/new&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  context &quot;fills out a form to create a student&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;creates a student and goes to the student show page&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      visit new_student_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      fill_in &quot;Name&quot;, with:  &quot;Axl Rose&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      click_on &quot;Create Student&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">      </code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(current_path).to eq(&quot;/students/#{Student.last.id}&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(page).to have_content(Student.last.name)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">=begin</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">As a user</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">When I visit `/students/new`</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">And I fill in name</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">And I click submit</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">I am on the student show page</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">And I see that student&#39;s name</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">=end</code>
         </li>
       
     </ol>

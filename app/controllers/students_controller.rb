@@ -39,8 +39,6 @@ class StudentsController < ApplicationController
     redirect_to students_path
   end
 
-
-
   private
 
   def student_params
